@@ -22,14 +22,14 @@
 
 <body>
   <div class="mx-auto container-xl">
-    <header class="container px-0 p-3 fw-bold" id="Top">
+    <header class="container px-0 p-4 fw-bold" id="Top">
       <div class="d-flex flex-row justify-content-between align-items-center">
         <a href="#Top"><span class="fs-3">feris nyannyan</span></a>
         <nav>
-          <a href="#Story" class="col-2 px-0">Story</a>
-          <a href="#Character" class="col-2 px-0">Character</a>
-          <a href="#Works" class="col-2 px-0">Works</a>
-          <a href="#Links" class="col-2 px-0">Links</a>
+          <a href="#Story" class="col-2 px-0 me-5">Story</a>
+          <a href="#Character" class="col-2 px-0 me-5">Character</a>
+          <a href="#Works" class="col-2 px-0 me-5">Works</a>
+          <a href=" #Links" class="col-2 px-0 me-5">Links</a>
         </nav>
       </div>
     </header>
@@ -53,19 +53,30 @@
         <h2 class="text-center mb-5">Character</h2>
         <section class="mb-5 fw-bold">
           <h3 class="visually-hidden">自己紹介:性格</h3>
-          <div class="d-flex flex-row align-items-center">
-            <div class=" w-50 d-flex flex-column align-items-center">
+          <div class="d-flex flex-row align-items-center pb-5">
+            <div class="w-50 d-flex flex-column align-items-center">
               <div class="w-75 border-end">
                 <p><img src="img/myIcon.png" alt="自己キャラクター画像" class="img-fluid" loading="lazy"></p>
+              </div>
+              <div>
                 <p class="mb-0">.like</p>
-                <ul class="list-unstyled">
-                  <li><a href="https://soundcloud.com/syuto-niimi/sets/fav" target="_brank">soundcloud</a></li>
-                  <li><a href="http://www.keshimusic.com/ " target="_brank">keshi</a></li>
-                  <li><a href="https://gundam-vs.jp/extreme/index.html" target="_brank">gandam.VS</a></li>
+                <ul class="d-flex flex-row list-unstyled">
+                  <li class="px-2"><a href=" https://soundcloud.com/syuto-niimi/sets/fav" target="_brank"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                        <title>soundcloud</title>
+                        <path d="M7 17.939h-1v-8.068c.308-.231.639-.429 1-.566v8.634zm3 0h1v-9.224c-.229.265-.443.548-.621.857l-.379-.184v8.551zm-2 0h1v-8.848c-.508-.079-.623-.05-1-.01v8.858zm-4 0h1v-7.02c-.312.458-.555.971-.692 1.535l-.308-.182v5.667zm-3-5.25c-.606.547-1 1.354-1 2.268 0 .914.394 1.721 1 2.268v-4.536zm18.879-.671c-.204-2.837-2.404-5.079-5.117-5.079-1.022 0-1.964.328-2.762.877v10.123h9.089c1.607 0 2.911-1.393 2.911-3.106 0-2.233-2.168-3.772-4.121-2.815zm-16.879-.027c-.302-.024-.526-.03-1 .122v5.689c.446.143.636.138 1 .138v-5.949z" />
+                      </svg></a></li>
+                  <li class="px-3"><a href="https://kadobun.jp/feature/readings/dbox7xuv5tkw.html" target="_brank"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                        <title>book</title>
+                        <path d="M23 5v13.883l-1 .117v-16c-3.895.119-7.505.762-10.002 2.316-2.496-1.554-6.102-2.197-9.998-2.316v16l-1-.117v-13.883h-1v15h9.057c1.479 0 1.641 1 2.941 1 1.304 0 1.461-1 2.942-1h9.06v-15h-1zm-12 13.645c-1.946-.772-4.137-1.269-7-1.484v-12.051c2.352.197 4.996.675 7 1.922v11.613zm9-1.484c-2.863.215-5.054.712-7 1.484v-11.613c2.004-1.247 4.648-1.725 7-1.922v12.051z" />
+                      </svg></a></li>
+                  <li class="px-3"><a href="onclick#sound" target="_brank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <title>sound</title>
+                        <path d="M19.803 13.207l-.829 1.093-1.554-3.826c-.077-.189-.244-.306-.437-.306-.157 0-.356.084-.444.321l-1.356 3.664-1.872-8.759c-.062-.291-.288-.394-.462-.394-.203 0-.428.131-.473.424l-1.629 10.581-1.658-6.968c-.067-.282-.291-.382-.463-.382-.167 0-.374.092-.453.349l-1.453 4.753-1.07-2.53c-.078-.185-.245-.299-.436-.299-.154 0-.294.076-.385.209l-1.257 1.805-.087.058h-2.985c-.276 0-.5.224-.5.5s.224.5.5.5h3.284c.152 0 .296-.074.386-.206l.948-1.353 1.24 2.929c.079.187.241.299.433.299.211 0 .39-.138.455-.35l1.324-4.332 1.814 7.629c.068.283.282.384.46.384.203 0 .428-.131.473-.425l1.605-10.425 1.673 7.83c.058.272.277.395.467.395.202 0 .366-.12.441-.321l1.5-4.049 1.426 3.51c.077.189.245.306.438.306.152 0 .292-.075.382-.206l1.146-1.583.087-.046h3.026c.272 0 .492-.22.492-.492s-.22-.494-.492-.494h-3.322c-.151 0-.294.077-.383.207z" />
+                      </svg></a></li>
                 </ul>
               </div>
             </div>
-            <div class="">
+            <div>
               <div class="col">
                 <p class="mb-0">HAL大阪IT学部WEB開発学科に通う2年生。</p>
                 <p class="mb-0">小さい頃もあまり人の話を聞かなかったらしい</p>
@@ -89,18 +100,61 @@
             </div>
           </div>
         </section>
-        <section class="pb-5 fw-bold">
+        <section class="pb-5 fw-bold d-flex flex-row justify-content-center">
           <h3 class="visually-hidden">自己紹介:経歴</h3>
-          <div>
-            <div></div>
-            <ul>
-              <li>(1995)&nbsp;&nbsp;生まれる</li>
+          <div class="w-75 ms-5">
+            <div class="position-relative border-start border-dark border-2 float-start h-100" style="left:17px;z-index:-1"></div>
+            <ul class="d-grid gap-3 list-unstyled">
               <li>
-                <div>(2011)&nbsp;&nbsp;履正社高校へ</div>
-                <div></div>
+                <div class="rounded-circle bg-gray float-start me-5" style="width:2rem;height:2rem"></div>
+                <span>(1995)</span>
+                <span class="ms-2">生まれる</span>
               </li>
-              <li>(2013)&nbsp;&nbsp;つくば開成高校転入(1日4限の人生夏休み開始)</li>
-              <li>(2014) 中部大学入学</li>
+              <li>
+                <div class="rounded-circle bg-gray float-start me-5" style="width:2rem;height:2rem"></div>
+                <span>(2011)</span>
+                <span class="ms-2">履正社高校へ</span>
+              </li>
+              <li>
+                <div class="rounded-circle bg-gray float-start me-5" style="width:2rem;height:2rem"></div>
+                <span>(2013)</span>
+                <span class="ms-2">履正社高校中退(入学時偏差値70あったものの落ちていった)</span>
+              </li>
+              <li>
+                <div class="rounded-circle bg-gray float-start me-5" style="width:2rem;height:2rem"></div>
+                <span>(2013)</span>
+                <span class="ms-2">つくば開成高校転入(1日4限の人生夏休み開始)</span>
+              </li>
+              <li>
+                <div class="rounded-circle bg-gray float-start me-5" style="width:2rem;height:2rem"></div>
+                <span>(2014)</span>
+                <span class="ms-2">中部大学入学(遊ぶのもどこか開き直れず、中途半端な感じ)</span>
+              </li>
+              <li>
+                <div class="rounded-circle bg-gray float-start me-5" style="width:2rem;height:2rem"></div>
+                <span>(2015/10)</span>
+                <span class="ms-2">中部大学中退 バイトしていた喫茶店で店員に。</span>
+              </li>
+              <li>
+                <div class="rounded-circle bg-gray float-start me-5" style="width:2rem;height:2rem"></div>
+                <span>(2016/2)</span>
+                <span class="ms-2">お客さんの世話になりすぎてこのままでは駄目だと思い大阪に戻ることに</span>
+              </li>
+              <li>
+                <div class="rounded-circle bg-gray float-start me-5" style="width:2rem;height:2rem"></div>
+                <span>(2017)</span>
+                <span class="ms-2">バイトを何個かやっていく間に先輩に誘われ新聞屋に就職する事に。</span>
+              </li>
+              <li>
+                <div class="rounded-circle bg-gray float-start me-5" style="width:2rem;height:2rem"></div>
+                <span>(2019)</span>
+                <span class="ms-2">出前館、佐川急便の事業の提携の話が出てくるものの体力的に持たなくなってきた為退職。某アプリであった女の子にスマホのサポートサービスの仕事を紹介され働き始める。</span>
+              </li>
+              <li>
+                <div class="rounded-circle bg-gray float-start me-5" style="width:2rem;height:2rem"></div>
+                <span>(2020~)</span>
+                <span class="ms-2">HAL大阪入学</span>
+              </li>
             </ul>
           </div>
         </section>
@@ -140,7 +194,10 @@
       </article>
     </main>
     <footer class="p-3 text-center">
-      <small>© 2021 feris nyannyan</small>
+      <blockquote cite="https://ganyariya.netlify.app/">
+        <small class="d-block">© 2021 feris</small>
+        <cite>模写元:<a href="https://ganyariya.netlify.app/">ganyariya</a></cite>
+      </blockquote>
     </footer>
   </div>
 
