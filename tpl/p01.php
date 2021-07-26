@@ -24,7 +24,7 @@
   <div class="mx-auto container-xl">
     <header class="container px-0 p-4 fw-bold" id="Top">
       <div class="d-flex flex-row justify-content-between align-items-center">
-        <a href="#Top"><span class="fs-3">feris nyannyan</span></a>
+        <a href="#Top"><span class="fs-3"><?php echo $headerName ?></span></a>
         <nav>
           <a href="#Story" class="col-2 px-0 me-5">Story</a>
           <a href="#Character" class="col-2 px-0 me-5">Character</a>

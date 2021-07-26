@@ -4,9 +4,16 @@
 //
 // ********************************************************
 
+$idea = 'title';
+$headerName = 'feris nyannyan';
 
-$idea = 'feris';
-$name = 'S.Niimi';
-$ten = 100;
+$nav = [
+    1 => 'story',
+    2 => 'Character',
+    3 => 'Works',
+    4 => 'Links'
+];
+
+$name = 'feris';
 
 require_once 'tpl/p01.php';
