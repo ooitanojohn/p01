@@ -10,15 +10,17 @@
     <meta property="og:url" content="https://feris-nyannyan.netlify.app" />
     <meta
       property="og:image"
-      content="https://feris-nyannyan.netlify.app/img/myIcon.png"
+      content="https://feris-nyannyan.netlify.app/img/myIcon.webp"
     />
+    <meta property="og:site_name" content="Eliminate Waste" />
+    <meta property="og:description" content="MyProflie" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:creator" content="@syuto_niimi" />
     <!-- css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
     <!-- icon -->
-    <link rel="icon" type="image/png" sizes="310x310" href="img/myIcon.png" />
+    <link rel="icon" type="image/png" sizes="310x310" href="img/myIcon.webp" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -33,9 +35,22 @@
 
       gtag("config", "G-CEV6YCBE0Y");
     </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-5VH4W59");
+    </script>
+    <!-- End Google Tag Manager -->
     <title>Eliminate waste</title>
   </head>
-
   <body>
     <div class="mx-auto container-xl">
       <header class="container px-0 p-4 fw-bold" id="Top">
@@ -76,7 +91,7 @@
                 <div class="w-75 border-end">
                   <p>
                     <img
-                      src="img/myIcon.png"
+                      src="img/myIcon.webp"
                       alt="自己キャラクター画像"
                       class="img-fluid"
                       loading="lazy"
@@ -376,5 +391,17 @@
         </blockquote>
       </footer>
     </div>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5VH4W59"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Development version -->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
   </body>
 </html>
