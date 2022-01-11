@@ -1,0 +1,37 @@
+body {
+  cursor: none;
+}
+*:hover {
+  cursor: none;
+}
+#cursor {
+  position: fixed;
+  background: #fddf;
+  border-radius: 10px;
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0;
+}
+#stalker {
+  position: fixed;
+  background: #8080ff;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin: -30px 0 0 -30px;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+#cursor.active,
+#stalker.active {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+}
